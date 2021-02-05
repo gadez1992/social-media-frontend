@@ -8,6 +8,8 @@ import "./Navbar.css";
 const Navbar = () => {
 	const auth = useContext(AuthContext);
 
+	
+
 	useEffect(() => {
 		var elems = document.querySelectorAll(".sidenav");
 		// var instances =
