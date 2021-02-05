@@ -1,0 +1,28 @@
+/* .authentication__header {
+  color: white;
+  text-align: center;
+} */
+
+.authentication {
+	width: 90%;
+	max-width: 35rem;
+	margin: 7rem auto !important;
+	text-align: center;
+	/* background-color: black !important; */
+}
+
+.authentication form {
+	margin-bottom: 1rem;
+}
+
+.login-button {
+	margin-top: 1.5rem;
+}
+
+.auth-buttons {
+	background-color: var(--primary-color) !important;
+}
+
+.auth-form-image-upload {
+	color: var(--dark-color);
+}

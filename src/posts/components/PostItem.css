@@ -1,0 +1,113 @@
+/* post item info */
+.post-item {
+  width: 32%;
+  /* margin: 0 auto; */
+  margin: 0 4px 0 4px;
+  display: flex;
+  justify-content: space-between; 
+}
+.card .card-content {
+  padding: 1rem .7rem 1rem .7rem !important;
+}
+
+
+.post-item-card {
+  background-color: black! important;
+  /* margin: 0 !important; */
+}
+
+.reveal-icon{
+  padding: 0.45rem 0 .4rem 0;
+}
+
+.post-item-info {
+  text-align: left;
+  margin-bottom: .6rem;
+}
+
+.post-item-info-title{
+  margin: 0;
+}
+
+.post-item-info-description {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.post-item-image {
+  width: 100%;
+  height: 30rem;
+}
+
+.post-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+/* buttons */
+.post-item-options {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.post-item-options button {
+  margin: 0.5rem;
+  background-color: var(--primary-color) !important;
+}
+
+
+/* Modal */
+.post-item-modal-content {
+  font-size: 2rem;
+  padding: 0;
+  color: black !important;
+}
+
+.post-item-modal-delete-button{
+  margin-right: 1.3rem;
+}
+
+.post-item-modal-buttons {
+  margin-top: 1.3rem;
+  text-align: right;
+  background-color: var(--primary-color) !important;
+}
+
+.post-item-reveal {
+  color: var(--dark-color);
+  text-align: center;
+}
+
+/* profile-card */
+.profile-card{
+  display: flex;
+  /* align-items: center; */
+  padding: 0 0 .8rem 0;
+  margin-top: 0; 
+}
+.profile-card-image{
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-right: .6rem;
+}
+.profile-card-name{
+  align-self: center;
+  font-size: .8rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .post-item__image {
+    height: 20rem;
+  } 
+}

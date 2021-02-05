@@ -1,0 +1,68 @@
+/* font-family: 'Electrolize', sans-serif; */
+
+:root {
+  --primary-color: rgb(105, 165, 173);
+  --second-color: rgb(202,142,199);
+  --third-color: rgb(194,170,108);
+  --fourth-color: rgb(216,155,136);
+  --fifth-color: rgb(233,225,224);
+
+  --sixth-color: rgba(1, 8, 8, 0.5);
+  --seventh-color: rgba(81,81,81,.30);
+  --eight-color: rgba(186,150,126,.90);
+  --ninth-color: rgba(247, 210, 251, 0.882);
+  --tenth-color: rgb(111,186,226,.60);
+  --eleventh-color: rgb(81,81,81);
+  --twelveth-color: rgb(84,89,60);
+  --dark-color: #000000;
+  --light-color:#fff;
+  --neutral-color: rgb(59, 59, 59);
+  --medium-color: rgba(240, 240, 240, 0.819);
+  --strong-color: rgb(240, 240, 240, 0.70);
+  --nav-color: rgba(58, 53, 56, 0.98);
+  --max-width: 1100px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-family: 'Electrolize', sans-serif;
+  /* line-height: 1.5; */
+}
+
+/* a {
+  text-decoration: none;
+  color: var(--light-color);
+} */
+
+ul {
+  list-style: none;
+}
+
+.margin-top{
+  height: 90px;
+}
+.margin-top2{
+  height: 95px;
+}
+.margin-top3{
+  height: 100px;
+}
+.margin-top4{
+  height: 120px;
+}
+
+.btn-1{
+  background-color:(--primary-color);
+}
+
+.container1{
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,12 @@
+.post-list {
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+  /* max-width: 35rem; */
+  color: var(--light-color);
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+
+

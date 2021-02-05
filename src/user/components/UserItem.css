@@ -1,0 +1,20 @@
+.user-item {
+  margin: 1rem;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+.user-item-card {
+  padding: 0;
+}
+.user-item a {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  background: #292929;
+}
+
+
+.user-item a:hover {
+  background: var(--fourth-color);
+}

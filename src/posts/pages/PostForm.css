@@ -1,0 +1,19 @@
+.post-form {
+  margin: 2rem auto !important;
+  padding:2rem;
+  width: 90%;
+  max-width: 50rem; 
+  border-radius: 2px;
+  background: white;
+}
+
+.post-form-buttons{
+  background-color: var(--primary-color) !important;
+  margin: 1.4rem auto 0 auto;
+}
+
+.post-form-image-upload{
+  margin-top: 1.6rem;
+  color: var(--dark-color);
+}
+
