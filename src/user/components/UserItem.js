@@ -17,7 +17,7 @@ const UserItem = (props) => {
 						<img
 							alt={props.name}
 							className="responsive-img"
-							src={`http://localhost:5000/${props.image}`}
+							src={`${process.env.REACT_APP_ASSET_URL}/${props.image}`}
 						/>
 						{props.name}
 					</Chip>
