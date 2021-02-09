@@ -180,7 +180,7 @@ const Auth = () => {
 							{/* password */}
 							<div className="">
 								<label htmlFor="password">Password</label>
-								<Field type="text" name="password" />
+								<Field type="password" name="password" />
 								<ErrorMessage component="div" name="password" className="red-text" />
 							</div>
 

@@ -42,7 +42,7 @@ const PostItem = (props) => {
 					reveal={
 						<div className="post-item-reveal">
 							<h3>{props.title.toUpperCase()}</h3>
-							<p>{props.description}</p>
+							<p class="reveal-description">{props.description}</p>
 						</div>
 					}
 					revealIcon={<Icon className="reveal-icon">more_vert</Icon>}
@@ -66,7 +66,7 @@ const PostItem = (props) => {
 					</div>
 
 					<div className="post-item-options">
-						<Button node="button">LIKE</Button>
+						{/* <Button node="button">LIKE</Button> */}
 						{auth.userId === props.creatorId && (
 							<Link to={`/posts/${props.id}`}>
 								<Button node="button">EDIT</Button>

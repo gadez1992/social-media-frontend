@@ -21,7 +21,7 @@
 
 .boder-bottom{
   border-bottom: white solid 1px;
-  height: 93px;
+  height: 91px;
 }
 /* logo */
 .nav-logo{
@@ -38,11 +38,11 @@
 }
 /* tabs */
 .main-nav ul{
-  padding-top: .1rem;
-  height: 90px; 
+  /* height: 90px;  */
 }
 
 nav ul li a {
+  padding-top: .1rem;
   font-size: 1.3rem !important;
   height: 90px;
   display: flex; 
@@ -50,10 +50,6 @@ nav ul li a {
 }
 .main-nav ul li{
   height: 90px ; 
-  /* padding: .8rem 0.2rem; */
-  /* display: flex; 
-  align-items: center;  */
-  /* font-size: 1.2rem !important; */
 }
 .main-nav ul li:nth-child(1) a {
   color: var(--primary-color);

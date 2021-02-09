@@ -39,12 +39,6 @@ const AllPosts = () => {
 		);
 	};
 
-	const loadingHeading = (
-		<CardPanel className="center white-text black" style={{ height: "100vh" }}>
-			<h3>Loading...</h3>
-		</CardPanel>
-	);
-
 	const noPostFound = (
 		<div>
 			<CardPanel className="black-text center">
